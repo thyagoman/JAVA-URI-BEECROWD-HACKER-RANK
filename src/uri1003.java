@@ -5,17 +5,17 @@ public class uri1003 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
 
 		int A, B, soma;
 
-		A = sc.nextInt();
-		B = sc.nextInt();
+		A = in.nextInt();
+		B = in.nextInt();
 
 		soma = A + B;
 
 		System.out.println("SOMA = " + soma);
 
-		sc.close();
+		in.close();
 	}
 }
